@@ -31,10 +31,3 @@ public class AppJava2 {
         } else {
             System.out.println("3 cạnh của tam giác không thỏa mãn điều kiện lập thành tam giác!");
         }
-
-        sc.close();
-    }
-}
-    
-
-    
