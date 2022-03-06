@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 public class App35 {
 public static void main (String[] args) {
@@ -12,4 +13,20 @@ public static void main (String[] args) {
           minNumber = secondNumber;
         System.out.println("So nho nhat trong hai so" + firstNumber + " va " + secondNumber + " la " + minNumber);
     }
+=======
+import java.util.Scanner;
+public class App35 {
+public static void main (String[] args) {
+    int firstNumber, secondNumber;
+       Scanner scanner = new Scanner(System.in);
+       System.out.println("Nhap vao so thu nhat: ");
+       firstNumber = scanner.nextInt();
+       System.out.println("Nhap vao so thu hai: ");
+       secondNumber = scanner.nextInt();
+    int minNumber = firstNumber;
+        if (firstNumber > secondNumber)
+          minNumber = secondNumber;
+        System.out.println("So nho nhat trong hai so" + firstNumber + " va " + secondNumber + " la " + minNumber);
+    }
+>>>>>>> a51163707c255b523f0e35b7e3a7d06f05a315cc
 } 
